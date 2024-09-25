@@ -1,0 +1,5 @@
+1. Firstly the date columns data was set as '25-JUN-2024'
+solution - I had to convert it into SQL format. I used to_datetime function along with %d-%b-%y to read format in pandas 
+
+2. Then the turnover column was coming null 
+-> I renamed the column name handled special characters so that the data will go proper in ssis
